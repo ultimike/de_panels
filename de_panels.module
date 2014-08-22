@@ -1,0 +1,10 @@
+<?php
+
+/**
+ * Implements hook_ctools_plugin_directory().
+ */
+function de_panels_ctools_plugin_directory($owner, $plugin_type) {
+  if ($owner == 'page_manager' || $owner == 'panels') {
+    return 'plugins/' . $plugin_type;
+  }
+}

@@ -1,0 +1,17 @@
+.de-pane.bg-grey {
+  background-color: #dedede;
+  color: #000000;
+}
+
+.de-pane.bg-grey h2 {
+  color: #000000;
+}
+
+.de-pane.bg-blue {
+  background-color: #1b9ad6;
+  color: #FFFFFF;
+}
+
+.de-pane.bg-blue h2 {
+  color: #FFFFFF;
+}

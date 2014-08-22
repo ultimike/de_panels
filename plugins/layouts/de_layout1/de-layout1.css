@@ -1,0 +1,57 @@
+/**
+ * @file
+ * DrupalEasy Layout 1
+ **/
+
+.de-layout1-container {
+  margin-bottom: 1em;
+}
+
+.de-layout1-secondary-column-content-region {
+  min-height: 1px;
+  width: 33%;
+  float: left;
+}
+
+.de-layout1-secondary-column2 {
+  width: 66%;
+}
+
+.de-layout1-secondary-column-content-region-inner {
+  margin-right: 20px;
+}
+
+.de-layout1-column-content-region {
+  min-height: 1px;
+  width: 25%;
+  float: left;
+}
+
+.de-layout1-column-content-region-inner {
+  margin-right: 20px;
+}
+
+.de-layout1-column4 {
+  width: 24%;
+}
+  
+.de-layout1-secondary-column2-inner,
+.de-layout1-column4-inner {
+  margin-right: 0;
+}
+    
+/* Smartphone */
+@media only screen and (max-width: 480px) {
+  .de-layout1-secondary-column-content-region,
+  .de-layout1-secondary-column2,
+  .de-layout1-column-content-region,
+  .de-layout1-column3 {
+    width: 100%;
+    float: none;
+  }
+  
+  .de-layout1-secondary-column-content-region-inner,
+  .de-layout1-column-content-region-inner {
+    margin-right: 0;
+  }
+}

@@ -1,0 +1,6 @@
+name = DrupalEasy Custom Panels
+description = Custom Panels layouts and styles
+core = 7.x
+version = "7.x-1.0"
+package = DrupalEasy
+dependencies[] = panels
