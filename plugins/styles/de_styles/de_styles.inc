@@ -36,15 +36,8 @@ function theme_de_styles_render_pane($variables) {
   else {
     $attributes['class'][] = $settings['background_color'];
   }
-  
-  if (empty($settings['text_color'])) {
-    $attributes['class'][] = 'tx-white';
-  }
-  else {
-    $attributes['class'][] = $settings['text_color'];
-  }
 
-  drupal_add_css(drupal_get_path('module', 'de_panels') . '/css/de-styles.css');
+  drupal_add_css(drupal_get_path('module', 'de_panels') . '/plugins/styles/de_styles/css/de-styles.css');
   
   $output = '<section' . drupal_attributes($attributes) . '>';
   if (!empty($content->title)) {
